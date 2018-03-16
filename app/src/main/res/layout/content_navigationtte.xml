@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.lenovo.expandablelistview.Navigationtte"
+    tools:showIn="@layout/app_bar_navigationtte">
+
+
+    <LinearLayout
+        android:layout_width="395dp"
+        android:layout_height="587dp"
+        android:orientation="vertical"
+        android:layout_centerInParent="true"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <Button
+            android:id="@+id/genNewTicket"
+            android:layout_width="match_parent"
+            android:layout_height="179dp"
+            android:text="Generate New Ticket" />
+
+        <Button
+            android:id="@+id/verifyTicket"
+            android:layout_width="match_parent"
+            android:layout_height="211dp"
+            android:text="Verify Ticket" />
+
+        <Button
+            android:id="@+id/fine"
+            android:layout_width="match_parent"
+            android:layout_height="195dp"
+            android:text="Fine" />
+    </LinearLayout>
+</RelativeLayout>

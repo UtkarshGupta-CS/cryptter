@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">CrypTTEr</string>
+    <string name="title_activity_book_ticket">bookTicket</string>
+    <string name="title_activity_navigationtte">Navigationtte</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_fine">fineActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+</resources>
